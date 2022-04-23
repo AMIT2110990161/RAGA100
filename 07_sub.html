@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .topback {
+        background: #fbe29b;
+        display: grid;
+        grid-gap: 88px;
+    }
+
+    .topbar {
+        display: flex;
+        height: 43px;
+
+    }
+
+    .login {
+        position: absolute;
+        right: 1%;
+        top: 1vh;
+        font-family: monospace;
+        font-size: 19px;
+    }
+
+    .login:hover {
+        cursor: pointer;
+        color: #ffffff;
+    }
+
+    .navbar {
+        position: absolute;
+        left: 35%;
+        right: 35%;
+        top: 1vh;
+    }
+
+    .navlist {
+        font-family: monospace;
+        font-size: 21px;
+        display: flex;
+    }
+
+    .navlist li {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .navlist li:hover {
+        cursor: pointer;
+        color: #ffffff;
+        ;
+    }
+
+    .logo img {
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .logo img:hover {
+        cursor: pointer;
+        border-color: #ffffff;
+    }
+    #container{position: absolute;
+    top: 13vh;
+}
+    .class{margin: 93px 0px;}
+    .topic{    margin: 25px 10px 0px 49px;
+    font-size: 4rem;
+    font-family: system-ui;}
+    .subsul{list-style: none;
+    margin: 19px;
+    font-size: 2em;
+    font-family: system-ui;
+display: flex;}
+    .subsul li{    border: 4px solid;
+    margin: 0px 15px;
+    height: 99px;
+    background: #fff3e3;
+    width: 171px;
+    border-radius: 28px;
+    text-align: center;
+    padding-top: 46px;
+}
+</style>
+</head>
+<body>
+    <div class="topback">
+        <div class="topbarfixed">
+            <div class="topbar">
+                <div class="logo"><img src="grizzly.jpg" width="50px" alt="" /></div>
+                <div class="navbar">
+                    <ul class="navlist" type="None">
+                        <li>Home</li>
+                        <li>Play</li>
+                        <li>News</li>
+                        <li>About&nbsp;us</li>
+                        <li>Contact&nbsp;us</li>
+                    </ul>
+                </div>
+                <div class="login">Login</div>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="class" id="class10">
+            <div class="topic" id="class10topic">
+                CLASS 10
+            </div>
+            <div class="sub" id="class10sub">
+                <ul class="subsul" id="class10subsul">
+                    <li>Maths</li>
+                    <li>Science</li>
+                    <li>Social science</li>
+                    <li>English</li>
+                    <li>Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div class="class" id="class12">
+            <div class="topic" id="class12topic">
+                CLASS 12
+            </div>
+            <div class="sub" id="class12sub">
+                <ul class="subsul" id="class12subsul">
+                    <li>Maths</li>
+                    <li>Science</li>
+                    <li>Chemistry</li>
+                    <li>Biology</li>
+                    <li>Computer Science</li>
+                </ul>
+            </div>
+        </div>
+        <div class="class" id="iit">
+            <div class="topic" id="iittopic">
+                IIT
+            </div>
+            <div class="sub" id="iitsub">
+                <ul class="subsul" id="iitsubsul">
+                    <li>Maths</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                </ul>
+            </div>
+        </div>
+        <div class="class" id="jee">
+            <div class="topic" id="jeetopic">
+                JEE MAINS
+            </div>
+            <div class="sub" id="jeesub">
+                <ul class="subsul" id="jeesubsul">
+                    <li>Biology</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
